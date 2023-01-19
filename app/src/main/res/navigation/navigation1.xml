@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation1"
+    app:startDestination="@id/dropdown_menu">
+
+    <fragment
+        android:id="@+id/dropdown_menu"
+        android:name="com.xa.dizayn.fragments.Fragment_one"
+        tools:layout="@layout/fragment_one"
+        android:label="Fragment_one" />
+    <fragment
+        android:id="@+id/carryVelocity"
+        tools:layout="@layout/fragment_two"
+        android:name="com.xa.dizayn.fragments.Fragment_two"
+        android:label="Fragment_two" />
+    <fragment
+        android:id="@+id/selection_type"
+        tools:layout="@layout/fragment_three"
+        android:name="com.xa.dizayn.fragments.Fragment_three"
+        android:label="Fragment_three" />
+</navigation>

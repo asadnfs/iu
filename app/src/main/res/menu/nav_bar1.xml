@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dropdown_menu"
+        android:icon="@drawable/calendar"
+        android:title="first" />
+    <item
+        android:id="@+id/carryVelocity"
+        android:icon="@drawable/dashboard"
+        android:title="card" />
+    <item
+        android:id="@+id/selection_type"
+        android:icon="@drawable/groceries"
+        android:title="setting" />
+</menu>
